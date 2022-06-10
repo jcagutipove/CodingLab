@@ -1,9 +1,8 @@
 ;ETF;Ticker;Asset Class;ER
-1;SPDR S&P 500 ETF TRUST;VEA;Developped Equity;5
-2; ISHARES IBOXX HIGH YLD CORP;VOO;US Equity;6
-3; LYXOR EURSTX600 INSURANCE;HYG;US High Yield;5
-4; INVESCO TOTAL RETURN BOND ET;IEF;Treasuries;3
-5;VANGUARD TOTAL BOND MARKET;BND ;US Investment Grade Bond;4
-6;Agregar;VNQ;Real Estate;6
-7;Agregar;EEM;Emerging Equity;8
-8;Agregar;EMB;Emerging Bonds;6
+1;SPDR S&P 500 ETF TRUST;VEA;Developped Equity;0.05
+2; ISHARES IBOXX HIGH YLD CORP;VOO;US Equity;0.06
+3; LYXOR EURSTX600 INSURANCE;HYG;US High Yield;0.05
+4; INVESCO TOTAL RETURN BOND ET;IEF;Treasuries;0.03
+5;Agregar;VNQ;Real Estate;0.06
+6;Agregar;EEM;Emerging Equity;0.08
+7;Agregar;EMB;Emerging Bonds;0.06

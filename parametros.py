@@ -1,3 +1,5 @@
+
+
 encuesta = {
     "Pregunta 1":{"text":"¿Cuál es tu objetivo de inversión?",
                   "opc":["Vivienda","Ahorro","Proyectos Personales","Retiro","Educación"]},

@@ -3,6 +3,7 @@ from dash import Dash, html, dcc
 import plotly.express as px
 import pandas as pd
 from dash.dependencies import Input, Output, State
+from analisis import optimization
 
 app = Dash(__name__)
 
@@ -55,8 +56,18 @@ app.layout = html.Div([
         html.Label(encuesta['Pregunta 10']['text']),
         dcc.Dropdown(encuesta['Pregunta 10']['opc']),
 
+
+
     ], style={'padding': 5, 'width':550, 'margin-left':40})
 ], style={'display': 'flex', 'flex-direction': 'row', 'marginTop': 40, 'margin-right':40, 'font-size':20, 'font-family':'helvetica'})
+
+
+
+############## Resultado del portafolio
+
+portafolio = optimization()
+
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)
